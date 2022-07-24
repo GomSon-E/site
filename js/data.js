@@ -1,0 +1,20 @@
+window.data={
+    allColor:['red','blue','green','purple','brown'],
+    allSize:[7,8,9,10,11,12,13],
+    byColor:{
+      'red':[8,9,10,13],
+      'blue':[7,8,9,10,11,12,13],
+      'green':[7,8,9,10,11,12,13],
+      'purple':[7,8,9,10,11,12,13],
+      'brown':[7,8,9,10,11,12,13] 
+    },
+    bySize:{
+        '7':['red','green',,'brown'],
+        '8':['red','brown'],
+        '9':['red','blue','green','purple','brown'],
+        '10':['red','blue','green','purple','brown'],
+        '11':['red','blue','green','purple','brown'],
+        '12':['red','blue','green','purple','brown'],
+        '13':['red','blue','green','purple','brown'],
+    }
+}
